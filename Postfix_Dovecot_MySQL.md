@@ -425,3 +425,14 @@ Restart Dovecot
 ```sh
 service dovecot restart
 ```
+You should check that port 993 is open and working (in case you enable pop3; you should check also port 995).
+```sh
+telnet hiepnguyen.xyz 993
+```
+**Congratulations.** You have successfully configured your mail server and you may test your account using an email client:
+```
+- Username: bobby1@hiepnguyen.xyz
+- Password: 123456
+- IMAP: hiepnguyen.xyz
+- SMTP: hiepnguyen.xyz
+```
