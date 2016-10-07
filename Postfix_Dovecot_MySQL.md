@@ -57,7 +57,7 @@ apt-get install postfix postfix-mysql dovecot-core dovecot-imapd dovecot-lmtpd d
 SSL Sign: yes
 Hostname: mail
 Internet Site
-FDN: mail.hiepnguyen.xyz
+FDN: hiepnguyen.xyz
 ```
 ### Step 2: Create a MySQL Database, Virtual Domains, Users and Aliases
 Create DB
@@ -144,7 +144,7 @@ smtpd_recipient_restrictions =
         permit_mynetworks,
         reject_unauth_destination
 
-myhostname = mail.hiepnguyen.xyz
+myhostname = hiepnguyen.xyz
 #mydestination = hiepnguyen.xyz, etestme.c.etestme-144311.internal, mailocalhost.c.etestme-144311.internal, localhost
 mydestination = localhost
 
